@@ -13,6 +13,13 @@ module.exports = ({ platform }, defaults) => {
     plugins: [
       ...defaults.plugins,
       uglifyPlugin,
-    ]
+    ],
+    resolve: {
+      ...defaults.resolve,
+      alias: {
+        ...defaults.resolve.alias,
+        'react-native$': './src/modules/react-native/Libraries/react-native/react-native-implementation.js'
+      }
+    }
   }
 };

@@ -51,6 +51,6 @@
   },
   "dependencies": {
     "react": "16.2.0",
-    "react-native": "0.52.0"
+    "react-native": "git+https://git@github.com/rdy/react-native#8b11d4a734e7295d5e7b02c52368005aa9f58f74"
   }
 }

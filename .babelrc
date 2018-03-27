@@ -24,6 +24,10 @@
     "transform-object-assign",
     "transform-object-rest-spread",
     "transform-react-display-name",
-    "transform-es2015-typeof-symbol"
+    "transform-es2015-typeof-symbol",
+
+    ["babel-plugin-transform-imports", {
+      "react-native": {"transform": "../../src/modules/transform-imports/index.js", "preventFullImport": true}
+    }]
   ]
 }
