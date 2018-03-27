@@ -23,3 +23,9 @@ build/
 captures/
 output.json
 *.iml
+
+bundle/
+
+# Haul
+#
+haul-debug.log
