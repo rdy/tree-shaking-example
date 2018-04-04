@@ -11,7 +11,8 @@
     "start": "react-native start",
     "android": "react-native run-android",
     "ios": "react-native run-ios",
-    "test": "node node_modules/jest/bin/jest.js"
+    "test": "node node_modules/jest/bin/jest.js",
+    "bundle:metro": "react-native bundle --platform android --dev false --entry-file index.js --bundle-output ./bundle/metro.jsbundle --assets-dest ./bundle --sourcemap-output ./bundle/metro.jsbundle.map"
   },
   "jest": {
     "preset": "react-native"
